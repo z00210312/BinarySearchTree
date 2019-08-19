@@ -1,0 +1,163 @@
+Type 'H' for the help
+h
+T - Print tree as an indented list(show level numbers)
+S - Search by a unique key (student ID)
+B - Tree Breadth-First Traversal: Print by level
+D - Depth - First Traversals : inorder, preorder, postorder
+I - Iterative Depth - First Traversals : inorder, preorder, postorder
+R - Find the longest branch and print it (from leaf to root)
+H - Help - to show the menu
+Q - Quit
+Input : t
+1. 3800
+	2. 3000
+		3. 1900
+			4. 1500
+			4. 2100
+				5. 2800
+					6. 2500
+		3. 3500
+			4. 3300
+	2. 4300
+		3. 3900
+			4. 4200
+		3. 5000
+Input : s
+Enter the ID : 230
+Searching for the ID : 230
+Entry not in tree.
+Input : s
+Enter the ID : 5000
+Searching for the ID : 5000
+5000 Lee, Lucy Marie, GPA: 3.4
+Input : b
+3800 Lee, Victor              2.8
+3000 Brown, Joanne            4.0
+4300 Trapp, Amanda Elizabeth  4.0
+1900 Walljasper, Bryan        3.9
+3500 Marcus, John             3.2
+3900 Brown, Joanne            3.5
+5000 Lee, Lucy Marie          3.4
+1500 Marcus, John             4.0
+2100 Andrews, Dennis          2.9
+3300 Lee, Victor              3.6
+4200 Brown, Joanne            4.0
+2800 Brown, Joanne            2.6
+2500 Lee, Mary                3.8
+Input : d
+1. PreOrder
+2. InOrder
+3. PostOrder
+1
+3800 Lee, Victor              2.8
+3000 Brown, Joanne            4.0
+1900 Walljasper, Bryan        3.9
+1500 Marcus, John             4.0
+2100 Andrews, Dennis          2.9
+2800 Brown, Joanne            2.6
+2500 Lee, Mary                3.8
+3500 Marcus, John             3.2
+3300 Lee, Victor              3.6
+4300 Trapp, Amanda Elizabeth  4.0
+3900 Brown, Joanne            3.5
+4200 Brown, Joanne            4.0
+5000 Lee, Lucy Marie          3.4
+Input : d
+1. PreOrder
+2. InOrder
+3. PostOrder
+2
+1500 Marcus, John             4.0
+1900 Walljasper, Bryan        3.9
+2100 Andrews, Dennis          2.9
+2500 Lee, Mary                3.8
+2800 Brown, Joanne            2.6
+3000 Brown, Joanne            4.0
+3300 Lee, Victor              3.6
+3500 Marcus, John             3.2
+3800 Lee, Victor              2.8
+3900 Brown, Joanne            3.5
+4200 Brown, Joanne            4.0
+4300 Trapp, Amanda Elizabeth  4.0
+5000 Lee, Lucy Marie          3.4
+Input : d
+1. PreOrder
+2. InOrder
+3. PostOrder
+3
+1500 Marcus, John             4.0
+2500 Lee, Mary                3.8
+2800 Brown, Joanne            2.6
+2100 Andrews, Dennis          2.9
+1900 Walljasper, Bryan        3.9
+3300 Lee, Victor              3.6
+3500 Marcus, John             3.2
+3000 Brown, Joanne            4.0
+4200 Brown, Joanne            4.0
+3900 Brown, Joanne            3.5
+5000 Lee, Lucy Marie          3.4
+4300 Trapp, Amanda Elizabeth  4.0
+3800 Lee, Victor              2.8
+Input : i
+1. PreOrder
+2. InOrder
+3. PostOrder
+1
+3800 Lee, Victor              2.8
+3000 Brown, Joanne            4.0
+1900 Walljasper, Bryan        3.9
+1500 Marcus, John             4.0
+2100 Andrews, Dennis          2.9
+2800 Brown, Joanne            2.6
+2500 Lee, Mary                3.8
+3500 Marcus, John             3.2
+3300 Lee, Victor              3.6
+4300 Trapp, Amanda Elizabeth  4.0
+3900 Brown, Joanne            3.5
+4200 Brown, Joanne            4.0
+5000 Lee, Lucy Marie          3.4
+Input : i
+1. PreOrder
+2. InOrder
+3. PostOrder
+2
+1500 Marcus, John             4.0
+1900 Walljasper, Bryan        3.9
+2100 Andrews, Dennis          2.9
+2500 Lee, Mary                3.8
+2800 Brown, Joanne            2.6
+3000 Brown, Joanne            4.0
+3300 Lee, Victor              3.6
+3500 Marcus, John             3.2
+3800 Lee, Victor              2.8
+3900 Brown, Joanne            3.5
+4200 Brown, Joanne            4.0
+4300 Trapp, Amanda Elizabeth  4.0
+5000 Lee, Lucy Marie          3.4
+Input : i
+1. PreOrder
+2. InOrder
+3. PostOrder
+3
+1500 Marcus, John             4.0
+2500 Lee, Mary                3.8
+2800 Brown, Joanne            2.6
+2100 Andrews, Dennis          2.9
+1900 Walljasper, Bryan        3.9
+3300 Lee, Victor              3.6
+3500 Marcus, John             3.2
+3000 Brown, Joanne            4.0
+4200 Brown, Joanne            4.0
+3900 Brown, Joanne            3.5
+5000 Lee, Lucy Marie          3.4
+4300 Trapp, Amanda Elizabeth  4.0
+3800 Lee, Victor              2.8
+Input : r
+THe longest branch from leaf to root is : 
+2500 Lee, Mary                3.8
+2800 Brown, Joanne            2.6
+2100 Andrews, Dennis          2.9
+1900 Walljasper, Bryan        3.9
+3000 Brown, Joanne            4.0
+3800 Lee, Victor              2.8
+Input : q
